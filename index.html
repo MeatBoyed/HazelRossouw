@@ -261,7 +261,7 @@
           <hr class="line" />
         </div>
         <div class="contactContainer">
-          <form class="formContainer" name="contact" method="POST" data-netlify="true">
+          <form class="formContainer" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
             <div class="metaData">
               <input type="text" class="formController" name="name" id="name" placeholder="Name" required />
               <input type="email" class="formController" name="eamil" id="email" placeholder="Email" required />
@@ -274,6 +274,7 @@
               placeholder="Your message"
               required
             ></textarea>
+            <div data-netlify-recaptcha="true"></div>
             <button class="sumbitBtn resumeDownload" type="submit" aria-label="Send Message">Send Message</button>
           </form>
           <div class="contactDetails">
