@@ -373,6 +373,7 @@ a {
   width: 80%;
   margin-top: 5em;
   margin-bottom: 5em;
+  height: 25em;
 }
 
 .formContainer {
@@ -380,7 +381,7 @@ a {
   flex-direction: column;
   justify-content: center;
   margin-right: 4em;
-  height: 17em;
+  height: 100%;
 }
 
 .formController {
@@ -423,7 +424,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 17em;
+  height: 100%;
 }
 
 .detailsCon {
