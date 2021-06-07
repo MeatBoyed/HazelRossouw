@@ -400,6 +400,10 @@ a {
   height: 10em;
 }
 
+.reCatptcha {
+  margin-top: 1em;
+}
+
 .metaData {
   display: flex;
   justify-content: center;
