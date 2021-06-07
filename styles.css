@@ -555,6 +555,10 @@ footer {
     width: 85%;
   }
 
+  .reCatptcha {
+    align-self: center;
+  }
+
   .metaData {
     display: flex;
     flex-direction: column;
